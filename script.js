@@ -1,1 +1,1 @@
-
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener("click",()=>{const m=document.querySelector(".mobileMenu");if(m)m.style.display="none"}));});
